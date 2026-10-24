@@ -1,0 +1,13 @@
+__pycache__/
+.venv/
+.pytest_cache/
+*.tmp
+
+# 機密設定
+.env
+
+# 執行時產生的資料與 log
+data/map.json
+data/chat_memory.jsonl
+logs/*
+!logs/.gitkeep
